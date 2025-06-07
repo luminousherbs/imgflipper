@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "imgflipper",
+  "version": "1.0",
+  "description": "download memes from imgflip without watermarks",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://imgflip.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
+
