@@ -2,12 +2,11 @@
 download memes from imgflip without watermarks
 
 ## setup
-- clone this repo from your terminal
-```
-git clone https://github.com/luminousherbs/imgflipper.git
-```
-- alternatively, download the `src` folder from the github website
-- in firefox, visit `about:debugging` and select "Load Temporary Add-on..."
-- select any file from the `src` folder
-- make a meme with [imgflip](https://imgflip.com)
-- hit `Ctrl + S` to download the meme without watermarks
+1. clone this repo
+2. in firefox, visit [about:debugging] and select "This Firefox"
+3. select "Load Temporary Add-on..."
+4. when prompted to choose a file, select `imgflipper/src/manifest.json`
+5. [make a meme using imgflip](https://imgflip.com/memegenerator)
+6. hit `Ctrl + S` to save the meme as a PNG file
+
+you can also install imgflipper [directly from Mozilla](https://addons.mozilla.org/en-GB/firefox/addon/imgflipper/)
